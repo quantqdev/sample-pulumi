@@ -12,3 +12,6 @@ console.log(`nginxContainerName: ${nginxContainerName}`);
 const nginxRemoteImage = new docker.RemoteImage("nginxRemoteImage", {name: "nginx"});
 // Start a container
 const nginxContainer = new docker.Container(nginxContainerName, {image: nginxRemoteImage.imageId});
+
+export const savedNginxRemoteImageId = nginxRemoteImage.imageId;
+export const savedNginxContainerName = nginxContainer.name;
