@@ -1,1 +1,3 @@
 encryptionsalt: v1:xbj9aQ/wLkw=:v1:mreGU7MzX9nocDoG:Fh1kN9KsYdzoatZo+Da1bXSLQAyMpQ==
+config:
+  docker:host: unix:///Users/quanta/.colima/default/docker.sock
